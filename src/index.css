@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 30px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.game {
+  display: flex;
+}
